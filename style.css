@@ -1,0 +1,53 @@
+
+
+body {
+	margin: 0 auto;
+	color: gray;
+	font-family: Arial, sans-serif;
+}
+
+.contentblock {
+	display: inline-block;
+	width: 95%;
+	margin-left: 5px;
+}
+
+nav li {
+	list-style-type: none;
+	font-size: 30px; 
+}
+
+.anvil {
+		display: none;
+	}
+	
+@media all and (min-width: 768px){
+	nav {
+		float: right;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 0 30px;
+		vertical-align: top;
+	}
+
+	.anviL {
+		margin: 0 auto;
+		display: inline;
+	}
+
+	#content {
+		width:960px;
+		margin: 0 auto;
+	}
+
+	.contentblock {
+		width: 45%;
+		display: inline-block;
+		float: left;
+	}
+
+	
+
+}
